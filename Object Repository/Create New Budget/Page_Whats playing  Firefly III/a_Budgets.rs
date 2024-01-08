@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>a_Budgets</name>
+   <tag></tag>
+   <elementGuidId>c51e1987-c119-4116-b598-73c5268b334b</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//li[@id='budget-menu']/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>#budget-menu > a</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>a</value>
+      <webElementGuid>bb308af0-7732-4aff-9e25-c37a71f762ef</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>href</name>
+      <type>Main</type>
+      <value>https://demo.firefly-iii.org/budgets</value>
+      <webElementGuid>78c84fdd-cc58-4253-99d7-c14a278cb033</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>
+
+Budgets
+</value>
+      <webElementGuid>1cdc8d8e-1dd0-4233-b296-1c06905e32ea</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;budget-menu&quot;)/a[1]</value>
+      <webElementGuid>a6a0aa89-dfe7-42b2-8f5f-1c9b4c8a7423</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//li[@id='budget-menu']/a</value>
+      <webElementGuid>a34e0fd1-aa0c-44f6-af21-31f1554bd237</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:href</name>
+      <type>Main</type>
+      <value>//a[contains(@href, 'https://demo.firefly-iii.org/budgets')]</value>
+      <webElementGuid>f537cd5b-14c9-4894-bee0-6e89d07e0e47</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//li[3]/a</value>
+      <webElementGuid>4c9de720-8e71-4094-a1ac-05b81f5832bd</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//a[@href = 'https://demo.firefly-iii.org/budgets' and (text() = '
+
+Budgets
+' or . = '
+
+Budgets
+')]</value>
+      <webElementGuid>3a6fb0f4-120e-4dfa-ae7e-7d3f6d637e77</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

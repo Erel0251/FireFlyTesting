@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Budget with Too Long Name</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7f57d501-1a7a-441d-b6f5-b0fee0626707</testCaseGuid>
+</TestCaseEntity>

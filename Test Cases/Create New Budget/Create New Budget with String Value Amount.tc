@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Create New Budget with String Value Amount</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>a88ccdb7-870a-4f43-b889-16bb27ad3792</testCaseGuid>
+</TestCaseEntity>
