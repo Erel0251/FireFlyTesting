@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Create New Budget" time="148.443" tests="10" failures="0" errors="0">
+   <testsuite name="Create New Budget" tests="10" failures="0" errors="0" time="148.443" skipped="0" timestamp="08-01-2024T16:19:19" hostname="Ret1na - host.docker.internal" id="Test Suites/Create New Budget">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\Workspace\\20120251\\Nam4Ky1\\KiemThuPhanMem\\KiemThu\\FireFlyTesting\\Reports\\20240108_161911\\Create New Budget\\20240108_161912"/>
+         <property name="logFiles" value="D:\\Workspace\\20120251\\Nam4Ky1\\KiemThuPhanMem\\KiemThu\\FireFlyTesting\\Reports\\20240108_161911\\Create New Budget\\20240108_161912\\execution0.log"/>
+         <property name="attachments" value="D:\\Workspace\\20120251\\Nam4Ky1\\KiemThuPhanMem\\KiemThu\\FireFlyTesting\\Reports\\20240108_161911\\Create New Budget\\20240108_161912\\1704705668701.png, D:\\Workspace\\20120251\\Nam4Ky1\\KiemThuPhanMem\\KiemThu\\FireFlyTesting\\Reports\\20240108_161911\\Create New Budget\\20240108_161912\\1704705668861.png"/>
+         <property name="hostName" value="Ret1na - host.docker.internal"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="9.1.0.212"/>
+         <property name="browser" value="Chrome 120.0.0.0"/>
+         <property name="hostAddress" value="192.168.2.8"/>
+         <property name="sessionId" value="244f1cd9475f5e91adc2aa67323e099e"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Create New Budget/Check Option No Auto-budget Condition" time="10.647" classname="Test Cases/Create New Budget/Check Option No Auto-budget Condition" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:19:19 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Check Option No Auto-budget Condition: Test Cases/Create New Budget/Check Option No Auto-budget Condition
+
+08-01-2024T16:19:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:19:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:19:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:19:21 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:19:21 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:22 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:27 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Games"): Text 'Games' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:19:28 - [MESSAGE][PASSED] - Text 'Games' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_create_another")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_create_another' is clicked on
+
+08-01-2024T16:19:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_create_another' is clicked on
+
+08-01-2024T16:19:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:19:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:19:29 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/div_CloseSuccessStored new budget Toys"), 0): Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/div_CloseSuccessStored new budget Toys' is present and visible in viewport
+
+08-01-2024T16:19:29 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-01-2024T16:19:30 - [MESSAGE][PASSED] - Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/div_CloseSuccessStored new budget Toys' is present and visible in viewport]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Big File Attachments" time="10.086" classname="Test Cases/Create New Budget/Create New Budget with Big File Attachments" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:19:30 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Big File Attachments: Test Cases/Create New Budget/Create New Budget with Big File Attachments
+
+08-01-2024T16:19:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:19:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:19:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:19:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:19:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:19:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:32 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Figure"): Text 'Figure' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:19:38 - [MESSAGE][PASSED] - Text 'Figure' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:19:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:19:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Blank Name" time="9.176" classname="Test Cases/Create New Budget/Create New Budget with Blank Name" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:19:40 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Blank Name: Test Cases/Create New Budget/Create New Budget with Blank Name
+
+08-01-2024T16:19:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:19:40 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:19:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:19:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:19:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:19:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:41 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:19:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:19:48 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required"), 0): Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required' is present and visible in viewport
+
+08-01-2024T16:19:48 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-01-2024T16:19:49 - [MESSAGE][PASSED] - Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required' is present and visible in viewport]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Float Value Amount" time="12.015" classname="Test Cases/Create New Budget/Create New Budget with Float Value Amount" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:19:49 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Float Value Amount: Test Cases/Create New Budget/Create New Budget with Float Value Amount
+
+08-01-2024T16:19:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:19:49 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:19:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:19:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:19:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:19:50 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:51 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:19:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:19:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:19:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:19:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Books"): Text 'Books' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:19:57 - [MESSAGE][PASSED] - Text 'Books' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:19:57 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb"), "1", true): All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:19:58 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:19:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount"), "45.1"): Text '45.1' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:19:58 - [MESSAGE][PASSED] - Text '45.1' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:19:58 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c"), "daily", true): All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:19:59 - [MESSAGE][PASSED] - All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:19:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:20:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Integer Value Amount" time="11.646" classname="Test Cases/Create New Budget/Create New Budget with Integer Value Amount" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:20:01 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Integer Value Amount: Test Cases/Create New Budget/Create New Budget with Integer Value Amount
+
+08-01-2024T16:20:01 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:20:01 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:20:01 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:20:01 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:20:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:20:02 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:20:03 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:20:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:20:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:20:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:20:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:20:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:20:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:20:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Computer"): Text 'Computer' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:20:08 - [MESSAGE][PASSED] - Text 'Computer' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:20:08 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb"), "1", true): All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:20:09 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:20:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount"), "22"): Text '22' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:20:10 - [MESSAGE][PASSED] - Text '22' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:20:10 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c"), "daily", true): All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:20:11 - [MESSAGE][PASSED] - All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:20:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:20:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Minus Amount" time="11.219" classname="Test Cases/Create New Budget/Create New Budget with Minus Amount" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:20:13 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Minus Amount: Test Cases/Create New Budget/Create New Budget with Minus Amount
+
+08-01-2024T16:20:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:20:13 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:20:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:20:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:20:13 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:20:13 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:20:15 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:20:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:20:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:20:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:20:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:20:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:20:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:20:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Calendar"): Text 'Calendar' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:20:20 - [MESSAGE][PASSED] - Text 'Calendar' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:20:20 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb"), "1", true): All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:20:21 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:20:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount"), "-15"): Text '-15' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:20:22 - [MESSAGE][PASSED] - Text '-15' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:20:22 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c"), "daily", true): All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:20:23 - [MESSAGE][PASSED] - All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:20:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:20:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Special Name" time="9.84" classname="Test Cases/Create New Budget/Create New Budget with Special Name" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:21:08 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Special Name: Test Cases/Create New Budget/Create New Budget with Special Name
+
+08-01-2024T16:21:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:21:08 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:21:09 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:21:09 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:21:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:21:09 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:10 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "!~@(*^*!@($$!(*@~!@_&)~+@"): Text '!~@(*^*!@($$!(*@~!@_&)~+@' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:21:17 - [MESSAGE][PASSED] - Text '!~@(*^*!@($$!(*@~!@_&)~+@' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:21:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:18 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters"), 0): Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is present and visible in viewport
+
+08-01-2024T16:21:18 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-01-2024T16:21:18 - [MESSAGE][PASSED] - Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is present and visible in viewport]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with String Value Amount" time="11.334" classname="Test Cases/Create New Budget/Create New Budget with String Value Amount" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:21:18 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with String Value Amount: Test Cases/Create New Budget/Create New Budget with String Value Amount
+
+08-01-2024T16:21:18 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:21:18 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:21:18 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:21:18 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:21:19 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:21:19 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:20 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Courses"): Text 'Courses' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:21:27 - [MESSAGE][PASSED] - Text 'Courses' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:21:27 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb"), "1", true): All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:21:28 - [MESSAGE][PASSED] - All options with value '1' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb'  using regular expression
+
+08-01-2024T16:21:28 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount"), "Hello world"): Text 'Hello world' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:21:29 - [MESSAGE][PASSED] - Text 'Hello world' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount'
+
+08-01-2024T16:21:29 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c"), "daily", true): All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:21:29 - [MESSAGE][PASSED] - All options with value 'daily' are selected in object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c'  using regular expression
+
+08-01-2024T16:21:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Create New Budget with Too Long Name" time="9.18" classname="Test Cases/Create New Budget/Create New Budget with Too Long Name" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:21:30 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Create New Budget with Too Long Name: Test Cases/Create New Budget/Create New Budget with Too Long Name
+
+08-01-2024T16:21:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:21:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:21:30 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:21:30 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:21:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:21:30 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:31 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name"), "Morbi eleifend odio eu risus tristique ultricies. Nulla facilisi. Curabitur a velit quis ex luctus ullamcorper. Donec porta lectus ac velit varius, ac consequat orci dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per volutpat. "): Text 'Morbi eleifend odio eu risus tristique ultricies. Nulla facilisi. Curabitur a velit quis ex luctus ullamcorper. Donec porta lectus ac velit varius, ac consequat orci dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per volutpat. ' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:21:37 - [MESSAGE][PASSED] - Text 'Morbi eleifend odio eu risus tristique ultricies. Nulla facilisi. Curabitur a velit quis ex luctus ullamcorper. Donec porta lectus ac velit varius, ac consequat orci dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per volutpat. ' is set on object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name'
+
+08-01-2024T16:21:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:38 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters"), 0): Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is present and visible in viewport
+
+08-01-2024T16:21:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-01-2024T16:21:39 - [MESSAGE][PASSED] - Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is present and visible in viewport]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Create New Budget/Validate Checkbox Return Here" time="8.38" classname="Test Cases/Create New Budget/Validate Checkbox Return Here" status="PASSED">
+         <system-out><![CDATA[08-01-2024T16:21:39 - [TEST_CASE][PASSED] - Test Cases/Create New Budget/Validate Checkbox Return Here: Test Cases/Create New Budget/Validate Checkbox Return Here
+
+08-01-2024T16:21:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-01-2024T16:21:39 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+08-01-2024T16:21:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-01-2024T16:21:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-01-2024T16:21:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-01-2024T16:21:40 - [TEST_STEP][PASSED] - navigateToUrl("https://demo.firefly-iii.org/login"): Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:40 - [MESSAGE][PASSED] - Navigate to 'https://demo.firefly-iii.org/login' successfully
+
+08-01-2024T16:21:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in")): Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in' is clicked on
+
+08-01-2024T16:21:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets")): Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets' is clicked on
+
+08-01-2024T16:21:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget")): Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget' is clicked on
+
+08-01-2024T16:21:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget")): Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget' is clicked on
+
+08-01-2024T16:21:47 - [TEST_STEP][PASSED] - verifyElementInViewport(findTestObject("Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required"), 0): Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required' is present and visible in viewport
+
+08-01-2024T16:21:47 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+08-01-2024T16:21:47 - [MESSAGE][PASSED] - Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required' is present and visible in viewport]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-01-2024T16:19:19 - [TEST_SUITE][FAILED] - Create New Budget: Test Cases/Create New Budget/Create New Budget with Special Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementInViewport(WebUiBuiltInKeywords.groovy:4211)
+	at Create New Budget with Special Name.run(Create New Budget with Special Name:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704705552774.run(TempTestSuite1704705552774.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[08-01-2024T16:19:19 - [TEST_SUITE][FAILED] - Create New Budget: Test Cases/Create New Budget/Create New Budget with Special Name FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to verify if object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is visible in viewport
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:26)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.verifyElementVisibleInViewport(VerifyElementVisibleInViewportKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword.execute(VerifyElementVisibleInViewportKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementInViewport(WebUiBuiltInKeywords.groovy:4211)
+	at Create New Budget with Special Name.run(Create New Budget with Special Name:35)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:148)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:106)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:180)
+	at TempTestSuite1704705552774.run(TempTestSuite1704705552774.groovy:36)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: com.kms.katalon.core.exception.StepFailedException: Object 'Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters' is not present
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:64)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.doCall(VerifyElementVisibleInViewportKeyword.groovy:83)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementVisibleInViewportKeyword$_verifyElementVisibleInViewport_closure1.call(VerifyElementVisibleInViewportKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:20)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

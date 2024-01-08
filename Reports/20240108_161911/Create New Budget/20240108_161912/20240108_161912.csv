@@ -1,0 +1,108 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Create New Budget,Chrome 120.0.0.0,,,08-01-2024 16:19:19,08-01-2024 16:21:47,2m - 28.443s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Check Option No Auto-budget Condition,Chrome 120.0.0.0,,,08-01-2024 16:19:19,08-01-2024 16:19:30,10.647s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:19:19,08-01-2024 16:19:21,1.517s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:19:21,08-01-2024 16:19:22,1.077s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:19:22,08-01-2024 16:19:24,1.943s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:19:24,08-01-2024 16:19:26,2.163s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:26,08-01-2024 16:19:27,1.017s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Games"")",Chrome 120.0.0.0,,,08-01-2024 16:19:27,08-01-2024 16:19:28,0.805s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_create_another""))",Chrome 120.0.0.0,,,08-01-2024 16:19:28,08-01-2024 16:19:28,0.291s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:28,08-01-2024 16:19:29,1.088s,PASSED
+"verifyElementInViewport(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/div_CloseSuccessStored new budget Toys""), 0)",Chrome 120.0.0.0,,,08-01-2024 16:19:29,08-01-2024 16:19:30,0.538s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Big File Attachments,Chrome 120.0.0.0,,,08-01-2024 16:19:30,08-01-2024 16:19:40,10.086s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:19:30,08-01-2024 16:19:30,0.758s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:19:30,08-01-2024 16:19:32,1.862s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:19:32,08-01-2024 16:19:35,2.420s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:19:35,08-01-2024 16:19:36,1.650s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:36,08-01-2024 16:19:37,1.005s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Figure"")",Chrome 120.0.0.0,,,08-01-2024 16:19:37,08-01-2024 16:19:38,0.800s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:38,08-01-2024 16:19:40,1.533s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Blank Name,Chrome 120.0.0.0,,,08-01-2024 16:19:40,08-01-2024 16:19:49,9.176s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:19:40,08-01-2024 16:19:40,0.769s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:19:40,08-01-2024 16:19:41,0.913s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:19:41,08-01-2024 16:19:43,1.474s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:19:43,08-01-2024 16:19:46,2.789s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:46,08-01-2024 16:19:47,1.335s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:47,08-01-2024 16:19:48,1.289s,PASSED
+"verifyElementInViewport(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required""), 0)",Chrome 120.0.0.0,,,08-01-2024 16:19:48,08-01-2024 16:19:49,0.542s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Float Value Amount,Chrome 120.0.0.0,,,08-01-2024 16:19:49,08-01-2024 16:20:01,12.015s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:19:49,08-01-2024 16:19:50,0.720s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:19:50,08-01-2024 16:19:51,0.985s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:19:51,08-01-2024 16:19:52,1.498s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:19:52,08-01-2024 16:19:55,2.618s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:55,08-01-2024 16:19:56,1.326s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Books"")",Chrome 120.0.0.0,,,08-01-2024 16:19:56,08-01-2024 16:19:57,0.789s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb""), ""1"", true)",Chrome 120.0.0.0,,,08-01-2024 16:19:57,08-01-2024 16:19:58,0.858s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount""), ""45.1"")",Chrome 120.0.0.0,,,08-01-2024 16:19:58,08-01-2024 16:19:58,0.780s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c""), ""daily"", true)",Chrome 120.0.0.0,,,08-01-2024 16:19:58,08-01-2024 16:19:59,0.843s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:19:59,08-01-2024 16:20:01,1.542s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Integer Value Amount,Chrome 120.0.0.0,,,08-01-2024 16:20:01,08-01-2024 16:20:12,11.646s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:20:01,08-01-2024 16:20:02,0.761s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:20:02,08-01-2024 16:20:03,0.934s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:20:03,08-01-2024 16:20:04,1.860s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:20:04,08-01-2024 16:20:07,2.200s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:20:07,08-01-2024 16:20:08,1.007s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Computer"")",Chrome 120.0.0.0,,,08-01-2024 16:20:08,08-01-2024 16:20:08,0.790s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb""), ""1"", true)",Chrome 120.0.0.0,,,08-01-2024 16:20:08,08-01-2024 16:20:09,0.842s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount""), ""22"")",Chrome 120.0.0.0,,,08-01-2024 16:20:09,08-01-2024 16:20:10,0.778s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c""), ""daily"", true)",Chrome 120.0.0.0,,,08-01-2024 16:20:10,08-01-2024 16:20:11,0.845s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:20:11,08-01-2024 16:20:12,1.574s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Minus Amount,Chrome 120.0.0.0,,,08-01-2024 16:20:13,08-01-2024 16:20:24,11.219s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:20:13,08-01-2024 16:20:13,0.749s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:20:13,08-01-2024 16:20:15,1.386s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:20:15,08-01-2024 16:20:17,1.945s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:20:17,08-01-2024 16:20:18,1.780s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:20:18,08-01-2024 16:20:19,1.029s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Calendar"")",Chrome 120.0.0.0,,,08-01-2024 16:20:19,08-01-2024 16:20:20,0.753s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb""), ""1"", true)",Chrome 120.0.0.0,,,08-01-2024 16:20:20,08-01-2024 16:20:21,0.857s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount""), ""-15"")",Chrome 120.0.0.0,,,08-01-2024 16:20:21,08-01-2024 16:20:22,0.780s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c""), ""daily"", true)",Chrome 120.0.0.0,,,08-01-2024 16:20:22,08-01-2024 16:20:23,0.832s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:20:23,08-01-2024 16:20:24,1.057s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Special Name,Chrome 120.0.0.0,,,08-01-2024 16:21:08,08-01-2024 16:21:18,9.840s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:21:08,08-01-2024 16:21:09,0.782s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:21:09,08-01-2024 16:21:10,1.061s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:21:10,08-01-2024 16:21:12,1.944s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:21:12,08-01-2024 16:21:15,2.568s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:15,08-01-2024 16:21:16,1.079s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""!~@(*^*!@($$!(*@~!@_&)~+@"")",Chrome 120.0.0.0,,,08-01-2024 16:21:16,08-01-2024 16:21:17,0.769s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:17,08-01-2024 16:21:18,1.108s,PASSED
+"verifyElementInViewport(findTestObject(""Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters""), 0)",Chrome 120.0.0.0,,,08-01-2024 16:21:18,08-01-2024 16:21:18,0.510s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with String Value Amount,Chrome 120.0.0.0,,,08-01-2024 16:21:18,08-01-2024 16:21:30,11.334s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:21:18,08-01-2024 16:21:19,0.835s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:21:19,08-01-2024 16:21:20,0.912s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:21:20,08-01-2024 16:21:22,2.400s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:21:22,08-01-2024 16:21:25,2.236s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:25,08-01-2024 16:21:26,1.373s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Courses"")",Chrome 120.0.0.0,,,08-01-2024 16:21:26,08-01-2024 16:21:27,0.777s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_No auto-budgetSet a fixed amount eve_005aeb""), ""1"", true)",Chrome 120.0.0.0,,,08-01-2024 16:21:27,08-01-2024 16:21:28,0.833s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_auto_budget_amount""), ""Hello world"")",Chrome 120.0.0.0,,,08-01-2024 16:21:28,08-01-2024 16:21:29,0.790s,PASSED
+"selectOptionByValue(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/select_DailyWeeklyMonthlyQuarterlyEvery hal_69941c""), ""daily"", true)",Chrome 120.0.0.0,,,08-01-2024 16:21:29,08-01-2024 16:21:29,0.822s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:29,08-01-2024 16:21:30,0.310s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Create New Budget with Too Long Name,Chrome 120.0.0.0,,,08-01-2024 16:21:30,08-01-2024 16:21:39,9.180s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:21:30,08-01-2024 16:21:30,0.749s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:21:30,08-01-2024 16:21:31,0.915s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:21:31,08-01-2024 16:21:33,1.599s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:21:33,08-01-2024 16:21:35,2.400s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:35,08-01-2024 16:21:36,1.014s,PASSED
+"setText(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/input_name""), ""Morbi eleifend odio eu risus tristique ultricies. Nulla facilisi. Curabitur a velit quis ex luctus ullamcorper. Donec porta lectus ac velit varius, ac consequat orci dapibus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per volutpat. "")",Chrome 120.0.0.0,,,08-01-2024 16:21:36,08-01-2024 16:21:37,0.932s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:37,08-01-2024 16:21:38,1.014s,PASSED
+"verifyElementInViewport(findTestObject(""Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name may not be greater than 255 characters""), 0)",Chrome 120.0.0.0,,,08-01-2024 16:21:38,08-01-2024 16:21:39,0.515s,PASSED
+,,,,,,,
+Test Cases/Create New Budget/Validate Checkbox Return Here,Chrome 120.0.0.0,,,08-01-2024 16:21:39,08-01-2024 16:21:47,8.380s,PASSED
+"openBrowser("""")",Chrome 120.0.0.0,,,08-01-2024 16:21:39,08-01-2024 16:21:40,0.746s,PASSED
+"navigateToUrl(""https://demo.firefly-iii.org/login"")",Chrome 120.0.0.0,,,08-01-2024 16:21:40,08-01-2024 16:21:40,0.915s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Login to Firefly III/button_Sign in""))",Chrome 120.0.0.0,,,08-01-2024 16:21:40,08-01-2024 16:21:42,1.460s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Whats playing  Firefly III/a_Budgets""))",Chrome 120.0.0.0,,,08-01-2024 16:21:42,08-01-2024 16:21:44,2.451s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Budgets  Firefly III/a_New budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:44,08-01-2024 16:21:45,1.009s,PASSED
+"click(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/button_Store new budget""))",Chrome 120.0.0.0,,,08-01-2024 16:21:45,08-01-2024 16:21:47,1.278s,PASSED
+"verifyElementInViewport(findTestObject(""Object Repository/Create New Budget/Page_Create a new budget  Budgets  Firefly III/p_The name field is required""), 0)",Chrome 120.0.0.0,,,08-01-2024 16:21:47,08-01-2024 16:21:47,0.510s,PASSED
